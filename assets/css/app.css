@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'robotolight';
+  src: url("/assets/fonts/roboto-light-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-light-webfont.woff") format("woff"), url("/assets/fonts/roboto-light-webfont.svg#robotolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("/assets/fonts/roboto-regular-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-regular-webfont.woff") format("woff"), url("/assets/fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotobold';
+  src: url("/assets/fonts/robotobold-webfont.woff2") format("woff2"), url("/assets/fonts/robotobold-webfont.woff") format("woff"), url("/assets/fonts/robotobold-webfont.svg#robotobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto_mediumregular';
+  src: url("/assets/fonts/robotomedium-webfont.woff2") format("woff2"), url("/assets/fonts/robotomedium-webfont.woff") format("woff"), url("/assets/fonts/robotomedium-webfont.svg#roboto_mediumregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* --------- clearfix mixins --------- */
+/* --------- responsive mixins --------- */
+html {
+  box-sizing: border-box;
+  font-size: 16px; }
+  @media screen and (max-width: 1200px) {
+    html {
+      font-size: 16px; } }
+  @media screen and (max-width: 992px) {
+    html {
+      font-size: 15px; } }
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 14px; } }
+  @media screen and (max-width: 480px) {
+    html {
+      font-size: 13px; } }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased; }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  min-width: 320px; }
+
+.container {
+  min-height: 100%;
+  max-width: 1000px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 1000px; } }
+  @media screen and (max-width: 992px) {
+    .container {
+      width: 750px;
+      padding: 0 1.25rem; } }
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 480px;
+      padding: 0 1.25rem; } }
+  @media screen and (max-width: 480px) {
+    .container {
+      width: auto; } }
+
+li {
+  list-style: none; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0; }
+
+input,
+label,
+select,
+button,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  font-size: 13px;
+  font-family: Arial; }
+
+input:focus {
+  outline: 0; }
+
+.presention__top {
+  min-height: 26.5625rem;
+  background: #000 url(/assets/img/bg/pattern-black1.png) repeat; }
+
+.presention__title-top {
+  font-family: 'robotolight';
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 0.1875rem #222;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2.1875rem 0; }
+  @media screen and (max-width: 768px) {
+    .presention__title-top {
+      font-size: 2rem; } }
+
+.presention__bottom {
+  min-height: 20rem;
+  background: #fff url(/assets/img/bg/pattern-white.png) repeat; }
+
+.presention__bottom-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .presention__bottom-wrap.upper {
+    position: relative;
+    bottom: 18.125rem;
+    margin-bottom: -18.125rem; }
+
+.presention__bottom-left {
+  min-width: 50%;
+  margin-bottom: 1.25rem; }
+
+.presention__img-wrap {
+  max-height: 30rem;
+  max-width: 24.5625rem;
+  overflow: hidden; }
+
+.presention__bottom-img {
+  width: 100%;
+  height: 100%; }
+
+.presention__bottom-right {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  margin: auto;
+  font-family: 'robotolight'; }
+
+.presention__title-bottom {
+  text-transform: uppercase;
+  font-size: 5.625rem;
+  color: #ffc000; }
+
+.presention__form {
+  min-height: 17.5rem;
+  background: #ffcc00;
+  border: 0.3125rem solid #fffffe;
+  box-shadow: 1px 1px 0.1875rem #000; }
+
+.label__email {
+  font-size: 1.875rem;
+  color: #000;
+  font-family: 'robotolight';
+  margin: 1.25rem 0;
+  cursor: pointer; }
+
+.presention__input-email {
+  width: 90%;
+  height: 3.125rem;
+  background: #fff;
+  border: 1px solid #e1a900;
+  font-family: 'robotoregular';
+  font-size: 1.25rem;
+  color: #000;
+  text-indent: 1.25rem; }
+  .presention__input-email:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0.4375rem #886600; }
+  .presention__input-email::-webkit-input-placeholder {
+    font-family: 'robotolight';
+    font-size: 1.25rem;
+    color: #555; }
+  .presention__input-email::-moz-placeholder {
+    font-family: 'robotolight';
+    font-size: 1.25rem;
+    color: #555; }
+  .presention__input-email:-moz-placeholder {
+    font-family: 'robotolight';
+    font-size: 1.25rem;
+    color: #555; }
+  .presention__input-email:-ms-input-placeholder {
+    font-family: 'robotolight';
+    font-size: 1.25rem;
+    color: #555; }
+
+.presention__form-text {
+  font-size: 1.25rem;
+  color: #000;
+  margin-top: 0.625rem; }
+
+.presention__form-btn {
+  width: 90%;
+  background: #b50000;
+  padding: 0.9375rem;
+  font-family: 'robotolight';
+  font-size: 1.875rem;
+  color: #fff;
+  margin-top: 0.625rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0.1875rem #700000;
+  box-shadow: 1px 1px 0.25rem #000; }
+  .presention__form-btn:hover {
+    -webkit-animation: growBtn linear .5s infinite;
+            animation: growBtn linear .5s infinite; }
+
+@-webkit-keyframes growBtn {
+  0 {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes growBtn {
+  0 {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+.presention__timer {
+  margin: 0.9375rem 0 3.125rem 0;
+  color: #000; }
+
+.presention__timer-title {
+  font-family: 'robotoregular';
+  font-size: 22px;
+  margin-bottom: 0.625rem; }
+
+.countdownHolder {
+  font-size: 1.875rem; }
+
+.section.footer {
+  background: #fff; }
+
+.section.problems {
+  background: #333 url(/assets/img/bg/pattern-grey.png) repeat;
+  min-height: 75rem; }
+
+.section__title {
+  width: 100%;
+  background: #ffcc00;
+  text-align: center;
+  font-family: 'robotolight';
+  font-size: 2.5rem;
+  color: #000;
+  padding: 1.875rem 0;
+  text-transform: uppercase;
+  margin-bottom: 5rem; }
+
+/*# sourceMappingURL=app.css.map */
