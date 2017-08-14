@@ -136,14 +136,21 @@ input:focus {
 html.mm-blocking body {
     overflow: visible
 }
-
+.preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2001;
+}
 .pl__left,
 .pl__right {
     position: absolute;
     background: #111;
     width: 51%;
     height: 100%;
-    z-index: 2001
+/*    z-index: 2001*/
 }
 
 .pl__left {

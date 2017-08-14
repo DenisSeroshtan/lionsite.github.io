@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>LION</title>
     <meta content="" name="author">
@@ -29,337 +30,343 @@
     <link rel="stylesheet" href="assets/css/app.css">
     <script src="assets/js/foundation.js" defer></script>
     <script src="assets/js/app.js" defer></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <button class="hamburger hamburger--3dx" type="button">
-      <div class="hamburger-box">
-        <div class="hamburger-inner"></div>
-      </div>
+        <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+        </div>
     </button>
     <div class="wrapper">
-      <div class="round"></div>
-      <div class="pl__left"></div>
-      <div class="pl__right"></div>
-      <section class="section presentation" id="js-presentation">
-        <div class="presentation__top">
-          <div class="header__nav">
-            <ul class="nav__list">
-              <li class="nav__items"><a class="nav__items-link" href="#js-presentation">Забрать систему</a></li>
-              <li class="nav__items"><a class="nav__items-link" href="#js-problems">Для кого</a></li>
-              <li class="nav__items"><a class="nav__items-link" href="#js-solution">Чем поможет</a></li>
-              <li class="nav__items"><a class="nav__items-link" href="#js-steps">Как получить</a></li>
-            </ul>
-          </div>
-          <div class="container">
-            <h2 class="presentation__title-top">система власти над собой</h2>
-          </div>
+        <div class="preloader">
+            <div class="round"></div>
+            <div class="pl__left"></div>
+            <div class="pl__right"></div>
         </div>
-        <div class="presentation__bottom">
-          <div class="container">
-            <div class="presentation__bottom-wrap upper">
-              <div class="presentation__bottom-left wow">
-                <div class="presentation__img-wrap"><img class="presentation__bottom-img" src="assets/img/presentation/lion.png"/></div>
-              </div>
-              <div class="presentation__bottom-right wow">
-                <h1 class="presentation__title-bottom" id="js-form">л.е.в</h1>
-                <form class="presentation__form" action="#" method="post">
-                  <div class="presentation__form-title">
-                    <label class="label__email" for="email">Пройти обучение:</label>
-                  </div>
-                  <input class="presentation__input-email" id="email" name="email" type="email" required="required" placeholder="введите сюда свой e-mail"/>
-                  <div class="presentation__form-text">и нажмите на кнопку ниже</div>
-                  <input class="presentation__form-btn" name="btn" type="submit" value="забрать систему"/>
-                </form>
-                <div class="presentation__timer">
-                  <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
-                  <div class="countdown"></div>
-                  <div id="note"></div>
+
+        <section class="section presentation" id="js-presentation">
+            <div class="presentation__top">
+                <div class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__items"><a class="nav__items-link" href="#js-presentation">Забрать систему</a></li>
+                        <li class="nav__items"><a class="nav__items-link" href="#js-problems">Для кого</a></li>
+                        <li class="nav__items"><a class="nav__items-link" href="#js-solution">Чем поможет</a></li>
+                        <li class="nav__items"><a class="nav__items-link" href="#js-steps">Как получить</a></li>
+                    </ul>
                 </div>
-              </div>
+                <div class="container">
+                    <h2 class="presentation__title-top">система власти над собой</h2>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="section problems" id="js-problems">
-        <div class="section__title">
-          <div class="container">
-            <div class="section__title-text wow">если внутри вас живут:</div>
-          </div>
-        </div>
-        <div class="container">
-          <ul class="ps__list">
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <div class="ps__items-num">1</div>
-              </div>
-              <div class="ps__items-right items__bg-1">
-                <div class="ps__items-title">Страх</div>
-                <div class="ps__items-text">
-                  <p>Каждое новое дело и начинание вызывает у вас беспокойство в душе и тревожные мысли, что это невозможно реализовать</p>
+            <div class="presentation__bottom">
+                <div class="container">
+                    <div class="presentation__bottom-wrap upper">
+                        <div class="presentation__bottom-left wow">
+                            <div class="presentation__img-wrap"><img class="presentation__bottom-img" src="assets/img/presentation/lion.png" /></div>
+                        </div>
+                        <div class="presentation__bottom-right wow">
+                            <h1 class="presentation__title-bottom" id="js-form">л.е.в</h1>
+                            <form class="presentation__form" action="#" method="post">
+                                <div class="presentation__form-title">
+                                    <label class="label__email" for="email">Пройти обучение:</label>
+                                </div>
+                                <input class="presentation__input-email" id="email" name="email" type="email" required="required" placeholder="введите сюда свой e-mail" />
+                                <div class="presentation__form-text">и нажмите на кнопку ниже</div>
+                                <input class="presentation__form-btn" name="btn" type="submit" value="забрать систему" />
+                            </form>
+                            <div class="presentation__timer">
+                                <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
+                                <div class="countdown"></div>
+                                <div id="note"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <div class="ps__items-num">2</div>
-              </div>
-              <div class="ps__items-right items__bg-2">
-                <div class="ps__items-title">Неуверенность</div>
-                <div class="ps__items-text">
-                  <p>Вы давно уже забыли, что значит быть твёрдо уверенным в себе. Так как все ваши дела не приносят должного результата</p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <div class="ps__items-num">3</div>
-              </div>
-              <div class="ps__items-right items__bg-3">
-                <div class="ps__items-title">Проблемы</div>
-                <div class="ps__items-text">
-                  <p>У вас накопилась большая куча проблем, и с каждым днем они нарастают как снежный ком, повышая ваш стресс</p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <div class="ps__items-num">4</div>
-              </div>
-              <div class="ps__items-right items__bg-4">
-                <div class="ps__items-title">Бардак</div>
-                <div class="ps__items-text">
-                  <p>У вас сплошной беспорядок, как в ваших делах, так и в вашей жизни. Который с каждым днем все больше давит на вас </p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <div class="ps__items-num">5</div>
-              </div>
-              <div class="ps__items-right items__bg-5">
-                <div class="ps__items-title">Безысходность</div>
-                <div class="ps__items-text">
-                  <p>Вы буквально связаны по рукам и ногам... Сила воли уже не та, и заставить себя что-то делать - нет сил</p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <div class="ps__items-num">6</div>
-              </div>
-              <div class="ps__items-right items__bg-6">
-                <div class="ps__items-title">Неудачи</div>
-                <div class="ps__items-text">
-                  <p>Они буквально преследуют вас по пятам. Вы злитесь на пустом месте, расстраивая родных и близких. И потом жалеете об этом</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <div class="ps__middle-title wow">
-            хватит себя жалеть!
-            <span class="orange">Всего за  1 неделю</span>
-            вы сможете решить все свои проблемы!
-          </div>
-        </div>
-        <div class="ps__bottom">
-          <div class="container">
-            <div class="presentation__bottom-wrap  ">
-              <div class="presentation__bottom-left wow">
-                <div class="img__wrap_less"><img class="presentation__bottom-img" src="assets/img/presentation/lion.png"/></div>
-              </div>
-              <div class="presentation__bottom-right wow">
-                <div class="btn__title">Включи льва<span class="text__yellow">&nbsp;прямо сейчас!</span></div>
-                <div class="ps__btn"><a class="btn__link" href="#js-form">забрать систему!</a></div>
-                <div class="presentation__timer presentation__timer_white">
-                  <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
-                  <div class="countdown4"></div>
-                  <div id="note4"></div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="section solution" id="js-solution">
-        <div class="section__title">
-          <div class="container">
-            <div class="section__title-text wow">Чего вы добьётесь по нашей системе:</div>
-          </div>
-        </div>
-        <div class="container">
-          <ul class="ps__list">
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <svg class="solution__sprite rocket">
-                  <use xlink:href="assets/svg/sprite.svg#rocket"></use>
-                </svg>
-              </div>
-              <div class="ps__items-right items__bg-rocket">
-                <div class="ps__items-title">Реактивный старт</div>
-                <div class="ps__items-text">
-                  <p>Благодаря нашим технологиям вы быстро разовьёте в себе полезные привычки, которые заметно улучшат вашу жизнь</p>
+        </section>
+        <section class="section problems" id="js-problems">
+            <div class="section__title">
+                <div class="container">
+                    <div class="section__title-text wow">если внутри вас живут:</div>
                 </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <svg class="solution__sprite glove">
-                  <use xlink:href="assets/svg/sprite.svg#glove"></use>
-                </svg>
-              </div>
-              <div class="ps__items-right items__bg-glove">
-                <div class="ps__items-title">Сила льва</div>
-                <div class="ps__items-text">
-                  <p>Уверенность в себе просто не будет знать границ. Вы добьётесь успеха во всех делах. А люди будут относится к вам с уважением</p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <svg class="solution__sprite lightning">
-                  <use xlink:href="assets/svg/sprite.svg#lightning"></use>
-                </svg>
-              </div>
-              <div class="ps__items-right items__bg-lightning">
-                <div class="ps__items-title">Точно в цель</div>
-                <div class="ps__items-text">
-                  <p>Проблемы? Что это? Вы решаете все сразу и максимально эффективно. Именно так делают победители... или львы</p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <svg class="solution__sprite bookmark">
-                  <use xlink:href="assets/svg/sprite.svg#bookmark"></use>
-                </svg>
-              </div>
-              <div class="ps__items-right items__bg-bookmark">
-                <div class="ps__items-title">Власть льва</div>
-                <div class="ps__items-text">
-                  <p>Вы получите полный контроль над своей жизнью. Приведете все дела в порядок и заметно увеличите свою продуктивность </p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <svg class="solution__sprite sword">
-                  <use xlink:href="assets/svg/sprite.svg#sword"></use>
-                </svg>
-              </div>
-              <div class="ps__items-right items__bg-sword">
-                <div class="ps__items-title">Король джунглей</div>
-                <div class="ps__items-text">
-                  <p>Как лев забирает свое по праву. Так и вы достойны большего в своей жизни. Вам надо только протянуть руку и забрать это</p>
-                </div>
-              </div>
-            </li>
-            <li class="ps__items wow">
-              <div class="ps__items-left">
-                <svg class="solution__sprite diamond">
-                  <use xlink:href="assets/svg/sprite.svg#diamond"></use>
-                </svg>
-              </div>
-              <div class="ps__items-right items__bg-diamond">
-                <div class="ps__items-title">Новый Я</div>
-                <div class="ps__items-text">
-                  <p>Снимите с себя маску неудачника, это всего лишь иллюзия. На самом деле вы сильны, умны и способны многого добиться</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <div class="ps__middle-title wow">Давай же!
-            <div class="orange wow">Возьми жизнь в свои руки!</div>
-          </div>
-        </div>
-        <div class="ps__bottom">
-          <div class="container">
-            <div class="presentation__bottom-wrap  ">
-              <div class="presentation__bottom-left wow">
-                <div class="img__wrap_less"><img class="presentation__bottom-img" src="assets/img/presentation/lion.png"/></div>
-              </div>
-              <div class="presentation__bottom-right wow">
-                <div class="btn__title">Включи льва<span class="text__yellow">&nbsp;прямо сейчас!</span></div>
-                <div class="ps__btn"><a class="btn__link" href="#js-form">забрать систему!</a></div>
-                <div class="presentation__timer presentation__timer_white">
-                  <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
-                  <div class="countdown3"></div>
-                  <div id="note3"></div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="section steps" id="js-steps">
-        <div class="section__title">
-          <div class="container">
-            <div class="section__title-text wow">как получить систему</div>
-          </div>
-        </div>
-        <div class="container">
-          <ul class="steps__list">
-            <li class="steps__items wow">
-              <div class="steps__items-sprite sprite__mail"></div>
-              <div class="steps__items-title">Вы подписываетесь указав свой email</div>
-            </li>
-            <li class="steps__items wow">
-              <div class="steps__items-sprite sprite__check"></div>
-              <div class="steps__items-title">Подтверждаете подписку на систему 'ЛЕВ'</div>
-            </li>
-            <li class="steps__items wow">
-              <div class="steps__items-sprite sprite__reply"></div>
-              <div class="steps__items-title">Мы высылаем обучающие материалы</div>
-            </li>
-            <li class="steps__items wow">
-              <div class="steps__items-sprite sprite__archive"></div>
-              <div class="steps__items-title">Вы скачиваете уроки на свой компьютер</div>
-            </li>
-            <li class="steps__items wow">
-              <div class="steps__items-sprite sprite__flag"></div>
-              <div class="steps__items-title">Проходите их и получаете результат!</div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="section footer">
-        <div class="section__title">
-          <div class="container">
-            <div class="section__title-text wow">стань номер один в своей жизни</div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="presentation__bottom-wrap  ">
-            <div class="presentation__bottom-left wow">
-              <div class="presentation__img-wrap"><img class="presentation__bottom-img" src="assets/img/presentation/luckyman.jpg"/></div>
-            </div>
-            <div class="presentation__bottom-right wow">
-              <form class="presentation__form" action="#" method="post">
-                <div class="presentation__form-title">
-                  <label class="label__email" for="email">Пройти обучение:</label>
+            <div class="container">
+                <ul class="ps__list">
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <div class="ps__items-num">1</div>
+                        </div>
+                        <div class="ps__items-right items__bg-1">
+                            <div class="ps__items-title">Страх</div>
+                            <div class="ps__items-text">
+                                <p>Каждое новое дело и начинание вызывает у вас беспокойство в душе и тревожные мысли, что это невозможно реализовать</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <div class="ps__items-num">2</div>
+                        </div>
+                        <div class="ps__items-right items__bg-2">
+                            <div class="ps__items-title">Неуверенность</div>
+                            <div class="ps__items-text">
+                                <p>Вы давно уже забыли, что значит быть твёрдо уверенным в себе. Так как все ваши дела не приносят должного результата</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <div class="ps__items-num">3</div>
+                        </div>
+                        <div class="ps__items-right items__bg-3">
+                            <div class="ps__items-title">Проблемы</div>
+                            <div class="ps__items-text">
+                                <p>У вас накопилась большая куча проблем, и с каждым днем они нарастают как снежный ком, повышая ваш стресс</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <div class="ps__items-num">4</div>
+                        </div>
+                        <div class="ps__items-right items__bg-4">
+                            <div class="ps__items-title">Бардак</div>
+                            <div class="ps__items-text">
+                                <p>У вас сплошной беспорядок, как в ваших делах, так и в вашей жизни. Который с каждым днем все больше давит на вас </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <div class="ps__items-num">5</div>
+                        </div>
+                        <div class="ps__items-right items__bg-5">
+                            <div class="ps__items-title">Безысходность</div>
+                            <div class="ps__items-text">
+                                <p>Вы буквально связаны по рукам и ногам... Сила воли уже не та, и заставить себя что-то делать - нет сил</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <div class="ps__items-num">6</div>
+                        </div>
+                        <div class="ps__items-right items__bg-6">
+                            <div class="ps__items-title">Неудачи</div>
+                            <div class="ps__items-text">
+                                <p>Они буквально преследуют вас по пятам. Вы злитесь на пустом месте, расстраивая родных и близких. И потом жалеете об этом</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="ps__middle-title wow">
+                    хватит себя жалеть!
+                    <span class="orange">Всего за  1 неделю</span> вы сможете решить все свои проблемы!
                 </div>
-                <input class="presentation__input-email" id="email" name="email" type="email" required="required" placeholder="введите сюда свой e-mail"/>
-                <div class="presentation__form-text">и нажмите на кнопку ниже</div>
-                <input class="presentation__form-btn" name="btn" type="submit" value="забрать систему"/>
-              </form>
-              <div class="presentation__timer">
-                <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
-                <div class="countdown2"></div>
-                <div id="note2"></div>
-              </div>
             </div>
-          </div>
-        </div>
-        <nav class="nav-mobile">
-          <ul class="nav__list-mobile">
-            <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-form">Забрать систему</a></li>
-            <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-problems">Для кого</a></li>
-            <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-solution">Чем поможет</a></li>
-            <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-steps">Как получить</a></li>
-          </ul>
-        </nav>
-      </section>
+            <div class="ps__bottom">
+                <div class="container">
+                    <div class="presentation__bottom-wrap  ">
+                        <div class="presentation__bottom-left wow">
+                            <div class="img__wrap_less"><img class="presentation__bottom-img" src="assets/img/presentation/lion.png" /></div>
+                        </div>
+                        <div class="presentation__bottom-right wow">
+                            <div class="btn__title">Включи льва<span class="text__yellow">&nbsp;прямо сейчас!</span></div>
+                            <div class="ps__btn"><a class="btn__link" href="#js-form">забрать систему!</a></div>
+                            <div class="presentation__timer presentation__timer_white">
+                                <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
+                                <div class="countdown4"></div>
+                                <div id="note4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section solution" id="js-solution">
+            <div class="section__title">
+                <div class="container">
+                    <div class="section__title-text wow">Чего вы добьётесь по нашей системе:</div>
+                </div>
+            </div>
+            <div class="container">
+                <ul class="ps__list">
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <svg class="solution__sprite rocket">
+                                <use xlink:href="assets/svg/sprite.svg#rocket"></use>
+                            </svg>
+                        </div>
+                        <div class="ps__items-right items__bg-rocket">
+                            <div class="ps__items-title">Реактивный старт</div>
+                            <div class="ps__items-text">
+                                <p>Благодаря нашим технологиям вы быстро разовьёте в себе полезные привычки, которые заметно улучшат вашу жизнь</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <svg class="solution__sprite glove">
+                                <use xlink:href="assets/svg/sprite.svg#glove"></use>
+                            </svg>
+                        </div>
+                        <div class="ps__items-right items__bg-glove">
+                            <div class="ps__items-title">Сила льва</div>
+                            <div class="ps__items-text">
+                                <p>Уверенность в себе просто не будет знать границ. Вы добьётесь успеха во всех делах. А люди будут относится к вам с уважением</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <svg class="solution__sprite lightning">
+                                <use xlink:href="assets/svg/sprite.svg#lightning"></use>
+                            </svg>
+                        </div>
+                        <div class="ps__items-right items__bg-lightning">
+                            <div class="ps__items-title">Точно в цель</div>
+                            <div class="ps__items-text">
+                                <p>Проблемы? Что это? Вы решаете все сразу и максимально эффективно. Именно так делают победители... или львы</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <svg class="solution__sprite bookmark">
+                                <use xlink:href="assets/svg/sprite.svg#bookmark"></use>
+                            </svg>
+                        </div>
+                        <div class="ps__items-right items__bg-bookmark">
+                            <div class="ps__items-title">Власть льва</div>
+                            <div class="ps__items-text">
+                                <p>Вы получите полный контроль над своей жизнью. Приведете все дела в порядок и заметно увеличите свою продуктивность </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <svg class="solution__sprite sword">
+                                <use xlink:href="assets/svg/sprite.svg#sword"></use>
+                            </svg>
+                        </div>
+                        <div class="ps__items-right items__bg-sword">
+                            <div class="ps__items-title">Король джунглей</div>
+                            <div class="ps__items-text">
+                                <p>Как лев забирает свое по праву. Так и вы достойны большего в своей жизни. Вам надо только протянуть руку и забрать это</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps__items wow">
+                        <div class="ps__items-left">
+                            <svg class="solution__sprite diamond">
+                                <use xlink:href="assets/svg/sprite.svg#diamond"></use>
+                            </svg>
+                        </div>
+                        <div class="ps__items-right items__bg-diamond">
+                            <div class="ps__items-title">Новый Я</div>
+                            <div class="ps__items-text">
+                                <p>Снимите с себя маску неудачника, это всего лишь иллюзия. На самом деле вы сильны, умны и способны многого добиться</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="ps__middle-title wow">Давай же!
+                    <div class="orange wow">Возьми жизнь в свои руки!</div>
+                </div>
+            </div>
+            <div class="ps__bottom">
+                <div class="container">
+                    <div class="presentation__bottom-wrap  ">
+                        <div class="presentation__bottom-left wow">
+                            <div class="img__wrap_less"><img class="presentation__bottom-img" src="assets/img/presentation/lion.png" /></div>
+                        </div>
+                        <div class="presentation__bottom-right wow">
+                            <div class="btn__title">Включи льва<span class="text__yellow">&nbsp;прямо сейчас!</span></div>
+                            <div class="ps__btn"><a class="btn__link" href="#js-form">забрать систему!</a></div>
+                            <div class="presentation__timer presentation__timer_white">
+                                <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
+                                <div class="countdown3"></div>
+                                <div id="note3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section steps" id="js-steps">
+            <div class="section__title">
+                <div class="container">
+                    <div class="section__title-text wow">как получить систему</div>
+                </div>
+            </div>
+            <div class="container">
+                <ul class="steps__list">
+                    <li class="steps__items wow">
+                        <div class="steps__items-sprite sprite__mail"></div>
+                        <div class="steps__items-title">Вы подписываетесь указав свой email</div>
+                    </li>
+                    <li class="steps__items wow">
+                        <div class="steps__items-sprite sprite__check"></div>
+                        <div class="steps__items-title">Подтверждаете подписку на систему 'ЛЕВ'</div>
+                    </li>
+                    <li class="steps__items wow">
+                        <div class="steps__items-sprite sprite__reply"></div>
+                        <div class="steps__items-title">Мы высылаем обучающие материалы</div>
+                    </li>
+                    <li class="steps__items wow">
+                        <div class="steps__items-sprite sprite__archive"></div>
+                        <div class="steps__items-title">Вы скачиваете уроки на свой компьютер</div>
+                    </li>
+                    <li class="steps__items wow">
+                        <div class="steps__items-sprite sprite__flag"></div>
+                        <div class="steps__items-title">Проходите их и получаете результат!</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section footer">
+            <div class="section__title">
+                <div class="container">
+                    <div class="section__title-text wow">стань номер один в своей жизни</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="presentation__bottom-wrap  ">
+                    <div class="presentation__bottom-left wow">
+                        <div class="presentation__img-wrap"><img class="presentation__bottom-img" src="assets/img/presentation/luckyman.jpg" /></div>
+                    </div>
+                    <div class="presentation__bottom-right wow">
+                        <form class="presentation__form" action="#" method="post">
+                            <div class="presentation__form-title">
+                                <label class="label__email" for="email">Пройти обучение:</label>
+                            </div>
+                            <input class="presentation__input-email" id="email" name="email" type="email" required="required" placeholder="введите сюда свой e-mail" />
+                            <div class="presentation__form-text">и нажмите на кнопку ниже</div>
+                            <input class="presentation__form-btn" name="btn" type="submit" value="забрать систему" />
+                        </form>
+                        <div class="presentation__timer">
+                            <div class="presentation__timer-title">доступ к системе будет закрыт через</div>
+                            <div class="countdown2"></div>
+                            <div id="note2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav-mobile">
+                <ul class="nav__list-mobile">
+                    <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-form">Забрать систему</a></li>
+                    <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-problems">Для кого</a></li>
+                    <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-solution">Чем поможет</a></li>
+                    <li class="nav__items-mobile"><a class="nav__items-mobile_link" href="#js-steps">Как получить</a></li>
+                </ul>
+            </nav>
+        </section>
     </div>
     <script src="assets/js/svg4everybody.min.js"></script>
-    <script>svg4everybody();</script>
-  </body>
+    <script>
+        svg4everybody();
+    </script>
+</body>
+
 </html>
